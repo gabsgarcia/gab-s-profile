@@ -1,0 +1,103 @@
+<style>
+  @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700")
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+</style>
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #F0D9FF;
+  background-color: #F3F1F5;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #BFA2DB;
+}
+
+h2 {
+  color: #595077;
+  font-size: 20px;
+}
+
+p {
+  font-size: 17px;
+  color: #7F7C82;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+a:hover {
+  background-color: #AE00FB;
+  color: white;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: rgb(247, 247, 247);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline  > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.social-btn {
+  font-size: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-purple {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
